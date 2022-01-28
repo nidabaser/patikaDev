@@ -1,0 +1,30 @@
+Binary Search Tree Projesi
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları
+
+- Root 7'dir.
+- 5 sayısı 7'den küçük olup 7'nin solundadır.
+- 1 sayısı 5'ten küçük olup 5'in solundadır.
+- 8 sayısı 7'den büyük olup 8'in sağındadır.
+- 3 sayısı 1'den büyük olup 3'ün sağındadır.
+- 6 sayısı 5'ten büyük olup 5'in sağındadır.
+- 0 ise 1'den küçük olup 1'in solundadır.
+- 9 sayısı 8'in sağındadır.
+- 4 sayısı 3'ün sağındadır.
+- 2 sayısı 3'ün solundadır.
+
+Binary Tree
+
+           7
+         /    \
+       5       8
+     /   \      \
+   1       6     9
+  /   \
+0     3
+     /   \
+   2      4
+
+Big-O Notasyonu
+Average Case : O(logn)
+Worst Case : O(n)
